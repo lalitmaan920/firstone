@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(2, 2, 42);
+}
+.cont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    margin-top: 2rem;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: bolder;
+}
